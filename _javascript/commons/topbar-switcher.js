@@ -3,6 +3,10 @@
  */
 
 $(function () {
+    // 20221129 modified
+    const topbarWrapper = $("#topbar-wrapper");
+    const toc = $("#toc-wrapper");
+    // ---
     const $searchInput = $("#search-input");
     const delta = ScrollHelper.getTopbarHeight();
 
